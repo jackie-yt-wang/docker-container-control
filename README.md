@@ -5,7 +5,7 @@
 3. Build Docker Image withe repo name `docker-image` and tag name `v1`<br/>`docker build -t docker-image:v1`
 4. Run Docker Container using the image built <br/>`docker run --rm -t -d -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output docker-image:v1`
 5. Check if Docker Container is running by <br/>`docker ps`
-5. Execute Docker with the running container <br/>`docker exet -it <id> pipenv run python3 scripy.py`
+5. Execute Docker with the running container <br/>`docker exet -it <id> pipenv run python3 script.py`
 
 ### 2. What is this Repo for?
 
